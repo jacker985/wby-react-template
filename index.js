@@ -12,5 +12,5 @@ const fs = require('fs');
 const appDirectory = fs.realpathSync(process.cwd());
 
 console.log(appDirectory)
-console.log(process.pwd())
 
+console.log("============", process.env.PUBLIC_URL)
